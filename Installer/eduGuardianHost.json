@@ -1,0 +1,13 @@
+{
+    "name": "eduguardianhost",
+    "description": "eduGuardian Native Messaging Host",
+    "path": "monitor.exe",
+    "type": "stdio",
+    "allowed_origins": [
+        "chrome-extension://miogdffablbcjdkkipkleagkhleihohd/"
+    ],
+    "allowed_extensions": [
+        "miogdffablbcjdkkipkleagkhleihohd"
+    ]
+}
+  

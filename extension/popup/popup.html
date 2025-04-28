@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EduGuardian</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="../icons/logo.png" alt="EduGuardian Logo" class="logo">
+            <h1>EduGuardian</h1>
+        </div>
+
+        <div class="button-container">
+            <button id="startExam" class="btn primary">
+                <i class="fas fa-play"></i>
+                Start Exam
+            </button>
+            <button id="stopExam" class="btn secondary" disabled>
+                <i class="fas fa-stop"></i>
+                Stop Exam
+            </button>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-lock"></i>
+                <span>Secure Exam Environment</span>
+            </div>
+            <div class="feature">
+                <i class="fas fa-eye"></i>
+                <span>Real-time Monitoring</span>
+            </div>
+            <div class="feature">
+                <i class="fas fa-ban"></i>
+                <span>Tab Switching Prevention</span>
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
